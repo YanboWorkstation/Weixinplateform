@@ -1,11 +1,11 @@
-Ext.define('weixin.view.MuchMore', {
+﻿Ext.define('weixin.view.MuchMore', {
 	extend: 'Ext.Panel',
 	header:false,
 	xtype: 'view-MuchMore',
 	layout: 'card',
 	id:'muchMoreHome',
 	requires:[
-		'weixin.view.MuchMoreToMyApproval',
+		//'weixin.view.MuchMoreToMyApproval',
 	],
 	items:[
 		{xtype:'view-MuchMoreHomePage', itemId:'muchMoreHomeDiv'},
@@ -155,7 +155,7 @@ Ext.define('weixin.view.MuchMoreToMyApprovalListView', {
 						  {
 							  xtype:'panel', header:false, layout:'hbox',border:false,
 							  items:[
-								{xtype:'image', src:'images/logo.gif', height:80, width:60, listeners: {el: { click: 'userImgClickEvent'}}	},
+								{xtype:'image', src:'images/logo.jpg', height:80, width:60, listeners: {el: { click: 'userImgClickEvent'}}	},
 								{xtype:'panel', header:false, border:0,
 									items:[
 										{xtype:'panel', header:false, border:0, layout:'hbox', bodyStyle:'padding-top:0.2rem',
@@ -183,7 +183,7 @@ Ext.define('weixin.view.MuchMoreToMyApprovalListView', {
 						  {
 							  xtype:'panel', header:false, layout:'hbox',border:false,
 							  items:[
-								{xtype:'image', src:'images/logo.gif', height:80, width:60, listeners: {el: { click: 'userImgClickEvent'}}	},
+								{xtype:'image', src:'images/logo.jpg', height:80, width:60, listeners: {el: { click: 'userImgClickEvent'}}	},
 								{xtype:'panel', header:false, border:0,
 									items:[
 										{xtype:'panel', header:false, border:0, layout:'hbox', bodyStyle:'padding-top:0.2rem',
@@ -211,7 +211,7 @@ Ext.define('weixin.view.MuchMoreToMyApprovalListView', {
 						  {
 							  xtype:'panel', header:false, layout:'hbox',border:false,
 							  items:[
-								{xtype:'image', src:'images/logo.gif', height:80, width:60, listeners: {el: { click: 'userImgClickEvent'}}	},
+								{xtype:'image', src:'images/logo.jpg', height:80, width:60, listeners: {el: { click: 'userImgClickEvent'}}	},
 								{xtype:'panel', header:false, border:0,
 									items:[
 										{xtype:'panel', header:false, border:0, layout:'hbox', bodyStyle:'padding-top:0.2rem',
@@ -286,7 +286,7 @@ Ext.define('weixin.view.MuchMoreToMyApprovalUserDetail', {
 						  {
 							  xtype:'panel', header:false, layout:'hbox',border:false,
 							  items:[
-								{xtype:'image', src:'images/logo.gif', height:80, width:60	},
+								{xtype:'image', src:'images/logo.jpg', height:80, width:60	},
 									{html:'user 1', style:'margin:0rem 1.4rem',xtype:'label'},
 									{html:Ext.Date.format(new Date(), 'Y-m-d'), style:'margin:0rem 5rem',xtype:'label'},
 									{html:'提交', xtype:'label'},
