@@ -1,5 +1,6 @@
 ﻿var port = Ext.create('Ext.container.Viewport', {
     layout: 'fit',
+	//style:'overflow-x:scroll;overflow-y:scroll',
 	items:[{xtype:'app-main'}]
 });
 

@@ -4,6 +4,7 @@
 	xtype: 'view-MuchMore',
 	layout: 'card',
 	id:'muchMoreHome',
+	defaults: {autoScroll: true},
 	requires:[
 		//'weixin.view.MuchMoreToMyApproval',
 	],

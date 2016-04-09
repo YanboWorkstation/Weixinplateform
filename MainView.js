@@ -68,7 +68,7 @@
 					},
 				]
 			},
-			{columnWidth:0.34,
+			{columnWidth:0.34,borderRightWidth:0,margin:'0 1 0 0',
 				items:[
 					{xtype:'panel', border:0, id:'overworkImageDivInHome', 
 						items:
@@ -111,6 +111,7 @@ Ext.define('weixin.view.main.Main', {
 	 requires:['weixin.view.MyLeave','weixin.view.MySalary','weixin.view.MyPunch','weixin.view.MyPhoneBook','weixin.view.MyOverwork','weixin.view.MuchMore'],
     //ui: 'navigation',
 	header:false,
+	defaults: {autoScroll: true},
 items: 
 [
 {xtype:'app-homePage',border:0, itemId:'mainDiv'},
